@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    width: 1250px;
+    margin: auto;
+
+}
+.menu-div{
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+  
+
+}
+.Above {
+    position: absolute;
+    top: 51px;
+    left: 302px;
+  }
+
+
+.menu-div ul{
+   text-align: center;
+   position: relative;
+   top: 20px;
+   
+}
+.menu-div ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.menu-div ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+.menu-div ul li a:hover{
+    color: red;
+}
+element {
+
+}
+.w-d {
+
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 530px;
+    color: #ddd;
+    font-style: italic;
+
+}
+/* contaner style-1 */
+.container-1 {
+    padding: 64px 0px;
+  }
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -17px;
+  }
+.box-1 {
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    border: 1px solid brown;
+    background-image: url(./GettyImages-173404960-56a1348f5f9b58b7d0bd03bd.jpg);
+    background-size: cover;
+    position: relative;
+    top: 42px;
+    left: 148px;
+    box-shadow: 9px 8px 3px -4px yellow;
+  }
+.box-2 {
+    height: 267px;
+    width: 715px;
+    display: inline-block;
+    position: absolute;
+    bottom: -329px;
+    right: 270px;
+}
+  /* contaner section 2 */
+.contaner-2 {
+    background-color: #34495e;
+    text-align: center;
+    height: 345px
+    width: 100%;
+}
+.service-heaedr {
+    color: red;
+    padding: 18px 0;
+    margin-left: 85px;
+  }
+  ul li{
+    list-style: none;
+    font-size: px;
+    position: relative;
+  }
+  .contaner-2 ul li::before{
+    content: "\f560";
+    font-family: "Font Awesome 6 free";
+    font-weight: 600;
+    color: red;
+    font-size: 30px;
+    margin-right: 5px;
+
+  }
+/* box-3 style */
+.box-3 {
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: -33px;
+    padding: 0 111px;
+    line-height: 29px;
+    position: relative;
+  }
+ul{
+    list-style: right
+    ;
+}
+.box-3 span i {
+    font-size: 32px;
+    color: #ddd;
+    background-color: #e67e22;
+    padding: 16px;
+    border-radius: 2px 30px;
+  } 
+  .box-3 .service-botton1 a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f39c12;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 7px;
+    position: absolute;
+    top: 33px;
+    right: 8px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+  .box-3 .service-botton1 a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: green;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 5px;
+    z-index: -1;
+    transition: 1s;
+  }
+  .box-3 .service-botton1 a:hover::before{
+    background-color: green;
+    width: 100%;
+
+  }
+  /* box-4 style */
+  .box-4 {
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 83px;
+    padding-right: 21 12px;
+    line-height: 29px;
+    position: relative;
+  }
+.box-4 span i{
+    font-size: 32px;
+    color: #ddd;
+    background-color: #e67e22;
+    padding: 16px;
+    border-radius: 2px 30px;
+}
+.box-4 .service-botton2 a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f39c12;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 7px;
+    position: absolute;
+    top: 33px;
+    right: 1px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+.box-4 .service-botton2 a::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 5px;
+    z-index: -1;
+    transition: 1s;
+    color: black;
+}
+.box-4 .service-botton2 a:hover::before{
+    background-color: aqua;
+    height: 100%;
+
+}
+/* box-5 style */
+.box-5{
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    line-height: 29px;
+    position: relative;
+    
+}
+.box-5 span i{
+    font-size: 32px;
+    color: #ddd;
+    background-color: #e67e22;
+    padding: 16px;
+    border-radius: 2px 30px;
+}
+.box-5 .service-botton3 a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f39c12;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 7px;
+    position: absolute;
+    top: 35px;
+    right: 2px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+.box-5 .service-botton3 a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 5px;
+    z-index: -1;
+    transition: 1s;
+    color: black;
+
+
+}
+.box-5 .service-botton3 a:hover::before{
+    background-color: red;
+    width: 100%;
+}
+
+.contact-haeding{
+  text-align: center;
+  margin-top: 10px;
+}
+form{
+  text-align: center;
+  margin-top: 50px;
+}
+input{
+  margin-top: 5px;
+  border: none;
+  border-bottom: 2px solid red;
+  padding-right: 239px;
+
+}
+/* submit botton style */
+.sub-btn{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  
+
+}
+.sub-btn a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #e67e22;
+  padding: 10px 20px;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+/* .sub-btn a:hover{
+  background-color: blue;
+  color: black;
+} */
+.sub-btn a::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  /* border-radius: 6px; */
+  z-index: -1;
+  transition: 1s;
+
+}
+.sub-btn a:hover::before{
+  background-color: blue;
+  width: 50%;
+  
+}
+.sub-btn a::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  
+  top: 0;
+  right: 0;
+  right: 0;
+  /* border-radius: 6px; */
+  z-index: -1;
+  transition: 1s;
+
+}
+.sub-btn a:hover::after{
+  background-color: aqua;
+  width: 50%;
+
+}
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 35px;
+  background-color: #34495e;
+ 
+}
+h4{
+  color: tomato;
+
+}
+
+
+
+
+
+
+
